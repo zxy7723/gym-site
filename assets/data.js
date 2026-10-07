@@ -12,7 +12,7 @@
 window.GYM_DATA = {
   hero: {
     title: "健身房力量训练动作图鉴",
-    subtitle: "胸 · 肩 · 背 · 腿 四大板块 · 标准动作要领与常见易错点解析",
+    subtitle: "胸 · 肩 · 背 · 腿 · 拉伸 五大板块 · 标准动作要领与常见易错点解析",
     tag: "FITNESS GUIDE",
     motto: "自律是自由的前提，汗水是最诚实的回报",
     quotes: [
@@ -487,6 +487,459 @@ window.GYM_DATA = {
               "迈步幅度过小→变成原地蹲",
               "重心不稳摇晃→平衡失当"
             ]
+          }
+        }
+      ]
+    },
+    {
+      id: "stretch",
+      name: "拉伸",
+      en: "STRETCH",
+      color: "#b388ff",
+      subtitle: "26个动作 · 训练前热身与训练后放松 · 按部位自下而上",
+      motiv: "拉伸是给身体的温柔收尾，也是唤醒柔韧的开始",
+      icon: "🤸",
+      exercises: [
+        {
+          id: "stretch-01",
+          name: "前脚抬起小腿拉伸",
+          en: "Calf Stretch",
+          target: ["小腿后侧腓肠肌", "比目鱼肌"],
+          cover: "assets/images/stretch-01.png",
+          demo: { type: "image" },
+          steps: [
+            "前脚脚跟着地、脚尖抬起，另一腿屈膝支撑",
+            "目标腿放在前方并保持脚跟着地；从髋部微微前倾，双手可扶目标侧小腿",
+            "脚尖朝上，膝盖保留少量弯曲；重心留在后腿，前脚脚跟压稳"
+          ],
+          tips: {
+            good: ["拉感在小腿后侧即可", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用手强压膝盖", "含胸弓腰", "把脚踝勾到疼痛"]
+          }
+        },
+        {
+          id: "stretch-02",
+          name: "扶墙站姿股四头肌拉伸",
+          en: "Standing Quad Stretch",
+          target: ["大腿前侧股四头肌"],
+          cover: "assets/images/stretch-02.png",
+          demo: { type: "image" },
+          steps: [
+            "一手扶稳固支撑，另一手握同侧脚踝",
+            "屈膝将脚跟缓慢带向臀部；双膝尽量靠近，支撑腿微屈",
+            "收住肋骨并轻轻后收骨盆，站稳后再拉脚踝"
+          ],
+          tips: {
+            good: ["大腿保持向下，拉感集中在大腿前侧", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["膝盖向外张", "腰部后仰", "拉着脚尖扭转踝关节"]
+          }
+        },
+        {
+          id: "stretch-03",
+          name: "四点跪姿股四头肌拉伸",
+          en: "Quadruped Quad Stretch",
+          target: ["大腿前侧股四头肌"],
+          cover: "assets/images/stretch-03.png",
+          demo: { type: "image" },
+          steps: [
+            "四点跪姿，一手支撑，另一手抓同侧脚踝",
+            "抬起一侧小腿并抓住脚踝；脚跟缓慢靠向臀部",
+            "保持两侧骨盆高度接近，支撑手和对侧膝稳定推地"
+          ],
+          tips: {
+            good: ["腹部轻收，目标大腿尽量不向外张", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["身体塌向一侧", "拉脚尖扭踝", "支撑腕疼痛仍继续"]
+          }
+        },
+        {
+          id: "stretch-04",
+          name: "深蹲髋内收肌拉伸",
+          en: "Deep Squat Adductor Stretch",
+          target: ["大腿内侧内收肌群"],
+          cover: "assets/images/stretch-04.png",
+          demo: { type: "image" },
+          steps: [
+            "宽站距深蹲，双脚略向外，下蹲至可控制深度",
+            "双肘放在双膝内侧，轻轻向外打开膝盖",
+            "胸口抬起，脚掌完整贴地，髋部向下沉"
+          ],
+          tips: {
+            good: ["膝盖与脚尖同向，双脚均匀推地", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["膝盖内扣", "脚跟抬起", "用肘猛烈顶膝"]
+          }
+        },
+        {
+          id: "stretch-05",
+          name: "坐姿蝴蝶式内收肌拉伸",
+          en: "Seated Butterfly Stretch",
+          target: ["大腿内侧及髋内收肌群"],
+          cover: "assets/images/stretch-05.png",
+          demo: { type: "image" },
+          steps: [
+            "坐姿，脚掌相对，双膝向外打开",
+            "双手放在身体前方支撑；坐直后从髋部微微前倾",
+            "让双膝自然下沉，坐骨均匀压地，胸口向前"
+          ],
+          tips: {
+            good: ["双腿主动放松", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用手压膝", "弹震", "背部过度弓曲"]
+          }
+        },
+        {
+          id: "stretch-06",
+          name: "仰卧单腿外展内收肌拉伸",
+          en: "Lying Single-Leg Adductor Stretch",
+          target: ["大腿内侧及髋前内侧"],
+          cover: "assets/images/stretch-06.png",
+          demo: { type: "image" },
+          steps: [
+            "仰卧，一腿伸直，另一腿屈膝向外打开",
+            "屈曲腿脚掌靠近对侧大腿；同侧手轻扶膝外侧",
+            "让膝盖在重力作用下缓慢向外下降"
+          ],
+          tips: {
+            good: ["两侧骨盆保持贴垫，腹部放松，以髋内侧温和拉感为准", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用手强压膝盖", "骨盆翻向一侧", "髋前出现夹痛"]
+          }
+        },
+        {
+          id: "stretch-07",
+          name: "站姿前屈大腿后侧拉伸",
+          en: "Standing Forward Fold",
+          target: ["腘绳肌群及臀后侧"],
+          cover: "assets/images/stretch-07.png",
+          demo: { type: "image" },
+          steps: [
+            "双脚约与髋同宽，膝盖微屈",
+            "先把臀部向后推，再从髋部缓慢前屈；双臂自然下垂",
+            "在大腿后侧出现拉感时停止下降"
+          ],
+          tips: {
+            good: ["保持脊柱自然延长，腹部轻收，主要折叠点在髋部", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["锁膝", "弹震", "为了碰地面而过度弓背"]
+          }
+        },
+        {
+          id: "stretch-08",
+          name: "前伸腿站姿腘绳肌拉伸",
+          en: "Split-Squat Hamstring Stretch",
+          target: ["大腿后侧腘绳肌群"],
+          cover: "assets/images/stretch-08.png",
+          demo: { type: "image" },
+          steps: [
+            "一脚向前伸，脚跟着地，后腿屈膝",
+            "前腿膝盖微屈，脚尖朝上；双手轻扶大腿",
+            "从髋部向前倾，臀部向后坐，背部拉长"
+          ],
+          tips: {
+            good: ["前腿脚跟压地，拉感集中在前腿大腿后侧", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["双手压膝", "圆背低头", "前脚向外旋转"]
+          }
+        },
+        {
+          id: "stretch-09",
+          name: "半跪坐后大腿后侧拉伸",
+          en: "Half-Kneeling Hamstring Stretch",
+          target: ["腘绳肌群"],
+          cover: "assets/images/stretch-09.png",
+          demo: { type: "image" },
+          steps: [
+            "一膝跪垫，另一腿向前伸直、脚尖朝上",
+            "臀部缓慢向后移；骨盆轻微前倾",
+            "双手放在地面或瑜伽砖上支撑，胸口向前延伸"
+          ],
+          tips: {
+            good: ["先向后坐再前倾，保持前腿膝盖不过度锁死", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["塌腰够脚", "跪膝直接压硬地", "弹动身体"]
+          }
+        },
+        {
+          id: "stretch-10",
+          name: "坐姿双腿前伸拉伸",
+          en: "Seated Forward Fold",
+          target: ["腘绳肌群及小腿后侧"],
+          cover: "assets/images/stretch-10.png",
+          demo: { type: "image" },
+          steps: [
+            "坐姿，双腿向前伸，膝盖可微屈",
+            "坐骨压地，脚尖朝上；从髋部向前倾",
+            "双手扶小腿或脚踝，保持胸口向前"
+          ],
+          tips: {
+            good: ["腹部轻收、背部延长，拉感在大腿后侧而不是腰部挤压", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用手猛拉脚尖", "膝盖锁死", "头部用力向膝盖靠"]
+          }
+        },
+        {
+          id: "stretch-11",
+          name: "低位弓步臀髋拉伸",
+          en: "Low Lunge Hip Stretch",
+          target: ["前腿臀肌及髋外旋肌群"],
+          cover: "assets/images/stretch-11.png",
+          demo: { type: "image" },
+          steps: [
+            "双手撑垫，前腿屈曲放在身体下方，后腿向后伸",
+            "调整前脚与膝的位置至髋部舒适；后腿向后延伸",
+            "躯干逐步降低，肘部可在能力范围内接近地面"
+          ],
+          tips: {
+            good: ["骨盆尽量朝前并均匀受力，呼气逐渐放松臀部", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["强压前膝", "骨盆明显歪斜", "膝前侧疼痛"]
+          }
+        },
+        {
+          id: "stretch-12",
+          name: "仰卧四字式臀部拉伸",
+          en: "Reclined Figure-4 Glute Stretch",
+          target: ["臀大肌", "臀中肌及髋外旋肌"],
+          cover: "assets/images/stretch-12.png",
+          demo: { type: "image" },
+          steps: [
+            "仰卧，将一侧脚踝搭在另一侧大腿上",
+            "双手抱住支撑腿大腿后侧，将支撑腿缓慢拉向胸前",
+            "目标侧膝自然向外打开，脚踝保持回勾"
+          ],
+          tips: {
+            good: ["头肩放松贴地，脚踝回勾以保护膝部", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["直接压目标侧膝盖", "抱住膝关节用力拉", "抬头憋气"]
+          }
+        },
+        {
+          id: "stretch-13",
+          name: "仰卧单膝抱胸",
+          en: "Lying Single Knee-to-Chest",
+          target: ["臀大肌及腰背周围软组织"],
+          cover: "assets/images/stretch-13.png",
+          demo: { type: "image" },
+          steps: [
+            "仰卧，一腿伸直，另一腿屈曲",
+            "双手抱住屈曲腿的大腿后侧或小腿上端",
+            "将膝盖缓慢靠向胸口，另一腿保持放松"
+          ],
+          tips: {
+            good: ["骶骨和头部留在垫上，呼气时轻轻增加靠近幅度", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["强压膝关节", "抬头含胸", "出现向腿部放射的疼痛仍继续"]
+          }
+        },
+        {
+          id: "stretch-14",
+          name: "仰卧屈膝脊柱旋转",
+          en: "Lying Knee-Drop Spine Twist",
+          target: ["胸腰椎活动度", "臀部及躯干侧面"],
+          cover: "assets/images/stretch-14.png",
+          demo: { type: "image" },
+          steps: [
+            "仰卧，双臂打开，一膝屈曲跨向对侧",
+            "肩胛骨保持贴地；屈曲腿缓慢落向身体对侧",
+            "视线可转向相反方向，保持顺畅呼吸"
+          ],
+          tips: {
+            good: ["先收紧腹部稳定，再让骨盆缓慢旋转，幅度以肩不离地为准", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用手强压膝盖", "肩膀抬起", "腰腿放射痛"]
+          }
+        },
+        {
+          id: "stretch-15",
+          name: "俯卧撑起腹部拉伸",
+          en: "Prone Abdominal Stretch",
+          target: ["腹直肌及躯干前侧"],
+          cover: "assets/images/stretch-15.png",
+          demo: { type: "image" },
+          steps: [
+            "俯卧，双手放在胸口两侧",
+            "手掌轻推地面抬起胸口；骨盆和大腿保持贴垫",
+            "肩膀远离耳朵，视线向前下方"
+          ],
+          tips: {
+            good: ["臀部轻收、胸口向前上方延伸，幅度以腹前侧拉开且腰部舒适为准", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["肘部完全锁死", "耸肩", "腰部夹痛仍继续抬高"]
+          }
+        },
+        {
+          id: "stretch-16",
+          name: "站姿侧屈拉伸",
+          en: "Standing Side Bend",
+          target: ["背阔肌及腹斜肌"],
+          cover: "assets/images/stretch-16.png",
+          demo: { type: "image" },
+          steps: [
+            "站姿，一手叉腰，另一臂举过头顶",
+            "吸气向上延伸举起的手臂；呼气时躯干缓慢向对侧侧屈",
+            "骨盆保持居中，胸口朝前"
+          ],
+          tips: {
+            good: ["先向上拔长再侧弯，重点让肋骨到骨盆之间拉开", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["身体前倾或旋转", "塌腰", "用手压头"]
+          }
+        },
+        {
+          id: "stretch-17",
+          name: "跪姿侧向延伸背阔肌",
+          en: "Kneeling Lat Side Stretch",
+          target: ["背阔肌及躯干侧面"],
+          cover: "assets/images/stretch-17.png",
+          demo: { type: "image" },
+          steps: [
+            "跪姿臀部靠近脚跟，一臂斜向前方伸长",
+            "一侧前臂支撑地面；另一臂沿地面斜向前伸",
+            "臀部持续向后坐，胸口轻轻下沉"
+          ],
+          tips: {
+            good: ["伸长侧手掌主动向远处延伸，保持同侧髋部向后", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["骨盆抬高", "身体翻转", "肩关节锐痛"]
+          }
+        },
+        {
+          id: "stretch-18",
+          name: "器械架辅助弓步开胸",
+          en: "Lunge Chest Opener",
+          target: ["胸大肌及胸小肌相关区域"],
+          cover: "assets/images/stretch-18.png",
+          demo: { type: "image" },
+          steps: [
+            "前后分腿站，一侧前臂扶固定器械立柱",
+            "支撑侧肘约弯曲90度并低于或接近肩高",
+            "身体缓慢向前并略微转离支撑臂，保持肩膀下沉"
+          ],
+          tips: {
+            good: ["前脚稳定发力，胸廓轻轻转开，拉感应在胸前而非肩关节前方", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["肘位过高", "耸肩", "用腰部后仰代偿"]
+          }
+        },
+        {
+          id: "stretch-19",
+          name: "半跪姿胸椎旋转开胸",
+          en: "Half-Kneeling Spine Rotation",
+          target: ["胸椎活动度", "胸大肌及肩前侧"],
+          cover: "assets/images/stretch-19.png",
+          demo: { type: "image" },
+          steps: [
+            "半跪姿靠墙，双臂在肩高打开",
+            "骨盆朝前稳定；双臂展开成一条直线",
+            "胸廓缓慢转向前腿一侧，视线跟随转动手"
+          ],
+          tips: {
+            good: ["转动主要发生在中上背，前脚和跪膝共同稳住骨盆", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用腰部扭转", "前膝内扣", "肩膀耸起"]
+          }
+        },
+        {
+          id: "stretch-20",
+          name: "跪姿侧向沉肩拉伸",
+          en: "Kneeling Lateral Shoulder Opener",
+          target: ["胸前", "肩前侧及胸椎旋转"],
+          cover: "assets/images/stretch-20.png",
+          demo: { type: "image" },
+          steps: [
+            "四点跪姿，一侧手臂向外侧伸展",
+            "支撑手稳住身体；目标侧手臂向侧方延伸",
+            "胸口逐渐向地面靠近，头颈保持放松"
+          ],
+          tips: {
+            good: ["骨盆留在膝盖上方，移动来自胸廓和肩胛周围", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["把体重直接压在肩关节上", "腰部跟着大幅旋转"]
+          }
+        },
+        {
+          id: "stretch-21",
+          name: "跪姿胸椎旋转准备式",
+          en: "Kneeling Spine Rotation Prep",
+          target: ["胸椎及肩胛周围"],
+          cover: "assets/images/stretch-21.png",
+          demo: { type: "image" },
+          steps: [
+            "四点跪姿，一臂向侧方放低",
+            "膝盖位于髋下；支撑手推地；另一臂向侧方伸展",
+            "逐渐降低胸口，为穿针式旋转建立可控起始位"
+          ],
+          tips: {
+            good: ["骨盆保持正对地面，胸廓缓慢旋转，呼吸均匀", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用颈部承担重量", "臀部明显侧移", "动作过快"]
+          }
+        },
+        {
+          id: "stretch-22",
+          name: "四点跪姿穿针式",
+          en: "Quadruped Thread-the-Needle",
+          target: ["三角肌后束", "肩胛周围及胸椎"],
+          cover: "assets/images/stretch-22.png",
+          demo: { type: "image" },
+          steps: [
+            "四点跪姿，一臂从支撑臂下方穿过",
+            "目标臂掌心朝上穿过身体下方；肩膀和头侧轻触垫面",
+            "另一臂向前延伸或留在支撑位"
+          ],
+          tips: {
+            good: ["臀部尽量保持在膝盖上方，通过上背旋转延长目标侧后肩", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["把全部体重压在颈部", "骨盆倒向一侧", "强压肩关节"]
+          }
+        },
+        {
+          id: "stretch-23",
+          name: "站姿横臂后肩拉伸",
+          en: "Cross-Body Rear Delt Stretch",
+          target: ["三角肌后束及肩后侧"],
+          cover: "assets/images/stretch-23.png",
+          demo: { type: "image" },
+          steps: [
+            "站姿，双脚与髋同宽",
+            "一侧手臂伸直横过胸前；另一侧前臂托住上臂靠近肘部的位置",
+            "轻轻向胸口带，躯干始终朝前"
+          ],
+          tips: {
+            good: ["肩胛骨保持自然，不耸肩；力量来自辅助臂缓慢内收", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["身体跟着旋转", "把手臂猛拉到疼痛"]
+          }
+        },
+        {
+          id: "stretch-24",
+          name: "器械架辅助肱二头肌拉伸",
+          en: "Machine-Assisted Biceps Stretch",
+          target: ["肱二头肌及肩前侧"],
+          cover: "assets/images/stretch-24.png",
+          demo: { type: "image" },
+          steps: [
+            "背向固定横杆，一手在身后握住支撑",
+            "目标臂向后伸直，掌心尽量朝外或朝上",
+            "身体小步向前并轻微转离目标臂，保持肩膀自然"
+          ],
+          tips: {
+            good: ["手只作固定点，双腿承担体重，动作幅度小而连续", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用手臂悬挂身体", "肘关节反弓", "肩前夹痛"]
+          }
+        },
+        {
+          id: "stretch-25",
+          name: "坐姿过顶肱三头肌拉伸",
+          en: "Seated Overhead Triceps Stretch",
+          target: ["肱三头肌及背阔肌上部"],
+          cover: "assets/images/stretch-25.png",
+          demo: { type: "image" },
+          steps: [
+            "坐姿，一臂举过头顶并屈肘",
+            "目标侧手掌落向上背部；另一手扶目标肘部",
+            "轻轻向后下方引导，保持躯干直立"
+          ],
+          tips: {
+            good: ["目标侧肘尖朝上，肋骨收住，肩膀远离耳朵", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["用力压头", "腰部后仰", "肩部夹痛"]
+          }
+        },
+        {
+          id: "stretch-26",
+          name: "站姿腕屈肌拉伸",
+          en: "Standing Wrist Flexor Stretch",
+          target: ["前臂掌侧及腕屈肌群"],
+          cover: "assets/images/stretch-26.png",
+          demo: { type: "image" },
+          steps: [
+            "站姿，一臂向前伸直",
+            "掌心朝前、手指向下；另一手包住手掌和手指",
+            "缓慢将手指带向身体方向，保持目标侧肘部舒适伸直"
+          ],
+          tips: {
+            good: ["固定前臂，只让手腕产生温和背伸，感受前臂掌侧拉长", "保持 15–30 秒，每侧 1–2 轮"],
+            mistakes: ["锁死肘关节", "只掰单根手指", "手指麻木仍继续"]
           }
         }
       ]

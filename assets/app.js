@@ -74,7 +74,7 @@
     stats.innerHTML =
       '<div class="stat"><b>'+cats+'</b><span>大板块</span></div>'+
       '<div class="stat"><b>'+total+'</b><span>精选动作</span></div>'+
-      '<div class="stat"><b>4</b><span>训练部位</span></div>';
+      '<div class="stat"><b>5</b><span>训练部位</span></div>';
     $('#heroStats').appendChild(stats);
   }
 
